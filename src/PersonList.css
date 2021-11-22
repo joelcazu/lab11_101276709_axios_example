@@ -1,0 +1,43 @@
+.container{
+    margin: 20px auto !important;   
+
+}
+
+.userColor{
+    background-color: #1dacc2;
+    padding: 10px 20px;
+    margin:0;
+}
+
+.profile_box{
+    display: flex;
+    justify-content: left;
+    background: #a5de21;
+    padding: 20px;
+    width: 100%;
+}
+
+.photo{
+    text-align: center;
+}
+
+.photo>img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tableBackground{
+    margin-left: 3rem;
+}
+
+.tableBackground>tbody>tr>td:first-child{
+    text-align: right;    
+}
+
+.tableBackground>tbody>tr>td{
+    padding: 0 10px;
+}
